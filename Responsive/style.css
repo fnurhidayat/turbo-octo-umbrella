@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.image-container {
+  padding: 0.8rem;
+}
+
+.image-container img {
+  border-radius: 100%;
+  width: 100%;
+  object-fit: fit;
+}
+
+.video {
+  overflow: hidden;
+  min-height: 360px;
+}
+
+@media only screen and (max-width: 768px) {
+  .image-container {
+    padding: 5rem;
+  }
+}
